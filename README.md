@@ -2,6 +2,8 @@
 
 This repository is intended to show how to pull together all the pieces for plotting.
 
+Okay, you might want to instead just refer to: [https://github.com/clauswilke/practical_ggplot2]
+
 ## Installation
 
 
@@ -22,4 +24,8 @@ This repository is intended to show how to pull together all the pieces for plot
 ## Workflow
 
 Because its a thing, we need to start with how to have the right dependencies. This repo is a package, and dependencies are described in DESCRIPTION. They are more precisely described in the `renv` lockfile. For work
+
+`renv` gets to be on the outside
+`pak` is the first thing installed in project library, with renv::install("pak")
+
 
