@@ -1,5 +1,5 @@
 ---
-title: "accessibility"
+title: "Accessibility"
 ---
 
 ```{r, include = FALSE}
@@ -12,3 +12,35 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(jplotexamples)
 ```
+
+
+## 508 Compliance
+
+The government has accessibility guidelines intended to ensure that electronic materials provided by the government are accessible. 
+
+The EPA intranet site on 508 compliance is here: http://intranet.epa.gov/accessibility/index.html
+
+Whole-government information is here: https://www.section508.gov/create/documents
+
+
+## How to Evaluate a Document for Accessibility
+
+From GSA: [Creating accessible digital products](https://www.section508.gov/create) (has sections for docx, pdf, pptx, software & websites, and spreadsheets)
+
+- Website / html document
+- pdf
+- docx
+- Interactive web app
+
+
+## Steps To Take to Make a Typical Document Accessible
+
+- Make sure images and figures have alternative text (would detailed captions fill this need?)
+- Make sure visual elements are high-contrast, and distinguishable for those with colorblindness (`colorblindr` package?) (theme with white separating bars, etc?)
+
+
+
+
+## Steps to Improving Accessibility in an R Document Pipeline
+
+
